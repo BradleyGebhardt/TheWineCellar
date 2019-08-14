@@ -1,19 +1,16 @@
 {
   "name": "thewinecellar",
-  "version": "1.0.0",
-  "description": "The unofficial website of the wine cellar\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[D\u001b[\u001b[\u001b[C\u001b\u001b[C\u001b[C\u001b[1;5C\u001b[1;Wine Cellar in rosetta",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BradleyGebhardt/TheWineCellar.git"
-  },
-  "author": "Bradley Gebhardt",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BradleyGebhardt/TheWineCellar/issues"
-  },
-  "homepage": "https://github.com/BradleyGebhardt/TheWineCellar#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
+  }
 }
