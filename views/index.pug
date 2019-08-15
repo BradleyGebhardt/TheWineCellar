@@ -1,5 +1,8 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  -var classes = ['w3-bar', 'w3-indigo']
+  //- p Welcome to #{title}
+  div(class=classes).w3-bar-item
+    a(href='/Users').w3-button Users
+  h1.w3-center= title
